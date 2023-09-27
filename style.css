@@ -1,0 +1,29 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wordContainer{
+    display: grid;
+}
+
+#imageContainer{
+    position: relative;
+    max-width: 100%;
+}
+.images{
+    position: absolute;
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    opacity: .5;
+}
+
+#artimage1{
+    z-index: 2;
+}
+
+#artimage2{
+    z-index: 1;
+    margin: 0;
+}
+
